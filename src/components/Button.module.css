@@ -1,0 +1,30 @@
+.primaryButton {
+  flex: 1;
+  position: relative;
+  font-size: var(--subtitle-small-size);
+  font-weight: 500;
+  font-family: var(--title-medium);
+  color: var(--just-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 107px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-base);
+  background-color: var(--main-color);
+  width: 139px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-crimson);
+}

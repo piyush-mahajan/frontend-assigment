@@ -1,0 +1,172 @@
+.div,
+.totalEmployees {
+  line-height: 28px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.totalEmployees {
+  width: 166px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -19px;
+  display: inline-block;
+}
+.div {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-29xl);
+}
+.totalEmployeesParent {
+  width: 147px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xl);
+}
+.men {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+}
+.frameParent,
+.menParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menParent {
+  width: 147px;
+  gap: var(--gap-9xs);
+  font-size: var(--body-small-size);
+  font-family: var(--subtitle-small);
+}
+.frameParent {
+  flex: 1;
+  padding: 0;
+  gap: var(--gap-13xl);
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 9.2px;
+  left: 0;
+  width: 114.5px;
+  height: 41.8px;
+}
+.frameItem {
+  top: 9px;
+  left: 0.5px;
+  height: 69px;
+  z-index: 1;
+}
+.chartPlaceholder {
+  position: absolute;
+  top: 0;
+  left: 42.5px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 21px;
+  height: 12px;
+  min-width: 21px;
+  z-index: 2;
+}
+.chartLabelIcon {
+  position: absolute;
+  top: 10px;
+  left: 45.5px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  z-index: 2;
+}
+.vectorParent {
+  align-self: stretch;
+  height: 78px;
+  position: relative;
+  flex-shrink: 0;
+}
+.pastMonth {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 87px;
+}
+.pastMonthWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-linen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: var(--body-small-size);
+  color: var(--secondary-title-color);
+  font-family: var(--subtitle-small);
+}
+.frameGroup,
+.totalaEmployees,
+.totalaEmployeesInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  height: 121px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-24xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.totalaEmployees,
+.totalaEmployeesInner {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-mini-5) 0 0;
+  font-size: var(--body-very-small-size);
+  color: var(--main-color);
+  font-family: var(--font-rubik);
+}
+.totalaEmployees {
+  border-radius: var(--br-3xs);
+  background-color: var(--just-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-21xl);
+  min-width: 203px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--title-medium-size);
+  color: var(--primary-subtitle-color);
+  font-family: var(--title-medium);
+}
+@media screen and (max-width: 925px) {
+  .div {
+    font-size: var(--font-size-19xl);
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-10xl);
+    line-height: 17px;
+  }
+  .totalaEmployees {
+    gap: var(--gap-xl);
+  }
+}

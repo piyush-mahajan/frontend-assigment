@@ -1,0 +1,152 @@
+.frameChild {
+  height: 36.8px;
+  width: 36.8px;
+  position: relative;
+}
+.frameItem {
+  align-self: stretch;
+  height: 19.9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameContainer,
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: row;
+}
+.frameGroup {
+  flex: 1;
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  width: 181.5px;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.mainMenu {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 1;
+}
+.icdashboardIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dashboard {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  z-index: 1;
+}
+.icdashboardParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.icrecruitmentIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 24px;
+}
+.recruitment {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.frameParent1,
+.iconLabelPair {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--primary-subtitle-color);
+}
+.frameParent1 {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  color: var(--main-color);
+}
+.schedule {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  z-index: 1;
+}
+.icemployeeIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icemployeeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.iconLabelPair1 {
+  gap: var(--gap-13xl);
+}
+.frameDiv,
+.frameParent,
+.iconLabelPair1,
+.mainMenuParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-base);
+  color: var(--primary-subtitle-color);
+  font-family: var(--title-medium);
+}
+.frameParent,
+.mainMenuParent {
+  gap: var(--gap-7xl);
+}
+.frameParent {
+  gap: var(--gap-44xl-3);
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--subtitle-small);
+}

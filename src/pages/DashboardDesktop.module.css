@@ -1,0 +1,766 @@
+.dashboardDesktopInner {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32.6px 0 0;
+  box-sizing: border-box;
+}
+.backgroundChild {
+  align-self: stretch;
+  width: 1197px;
+  position: relative;
+  background-color: var(--just-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.copyShift {
+  height: 900px;
+  width: 1px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+}
+.dashboard {
+  margin: 0;
+  width: 630px;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.positionContainer,
+.positionsGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.positionsGrid {
+  flex: 1;
+  gap: 14px;
+}
+.positionContainer {
+  align-self: stretch;
+}
+.countPlaceholder,
+.totalEmployees {
+  line-height: 28px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.totalEmployees {
+  width: 166px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -19px;
+  display: inline-block;
+}
+.countPlaceholder {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-29xl);
+}
+.totalCount {
+  width: 147px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xl);
+}
+.men {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+}
+.employeeCount,
+.genderCount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.genderCount {
+  width: 147px;
+  gap: var(--gap-9xs);
+  font-size: var(--body-small-size);
+  font-family: var(--subtitle-small);
+}
+.employeeCount {
+  flex: 1;
+  padding: 0;
+  gap: var(--gap-13xl);
+}
+.frameChild {
+  height: 69px;
+  width: 114.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -52.5px;
+  bottom: -66px;
+  z-index: 1;
+}
+.chartPlaceholder {
+  position: relative;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 20px;
+  z-index: 2;
+}
+.chartLabelIcon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin: 0 !important;
+  right: 1px;
+  bottom: -14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameWrapper,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  position: relative;
+}
+.frameWrapper {
+  padding: 0 41px;
+}
+.frameItem {
+  margin-top: -2.8px;
+  height: 41.8px;
+  width: 114.5px;
+  position: relative;
+}
+.frameGroup,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorWrapper {
+  height: 39px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 27px;
+  flex-shrink: 0;
+}
+.pastMonth {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 87px;
+}
+.pastMonthContainer,
+.pastMonthLabel {
+  display: flex;
+  justify-content: flex-start;
+}
+.pastMonthLabel {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-linen);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xs);
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: var(--body-small-size);
+  color: var(--secondary-title-color);
+  font-family: var(--subtitle-small);
+}
+.pastMonthContainer {
+  align-self: stretch;
+  height: 121px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-24xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.employeeWidget,
+.pastMonthContainerWrapper,
+.talentRequest {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pastMonthContainerWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-mini-5) 0 0;
+  font-size: var(--body-very-small-size);
+  color: var(--main-color);
+  font-family: var(--font-rubik);
+}
+.employeeWidget,
+.talentRequest {
+  flex-direction: row;
+}
+.talentRequest {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--just-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-21xl);
+  min-width: 203px;
+  z-index: 1;
+}
+.employeeWidget {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.announcementChild {
+  align-self: stretch;
+  height: 334px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--just-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+}
+.announcement1,
+.today13Sep {
+  position: relative;
+  display: inline-block;
+}
+.announcement1 {
+  width: 427px;
+  line-height: 28px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.today13Sep {
+  line-height: 22px;
+  min-width: 105px;
+}
+.checkBox2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-11xs) var(--padding-10xs);
+}
+.checkBox3 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.checkBox1 {
+  width: 145px;
+  border-radius: var(--br-9xs);
+  background-color: var(--just-white);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--body-small-size);
+  font-family: var(--subtitle-small);
+}
+.checkBox,
+.instanceParent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.instanceParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.announcementList,
+.announcementsContent,
+.instanceParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.announcementList {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base);
+}
+.announcementsContent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.seeAllAnnouncement {
+  flex: 1;
+  position: relative;
+  font-size: var(--subtitle-small-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--title-medium);
+  color: var(--main-color);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.checkBox4 {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-200);
+  padding: var(--padding-5xs) var(--padding-4xs);
+  background-color: var(--just-white);
+  position: absolute;
+  top: 83px;
+  left: 0;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  box-sizing: border-box;
+  width: 640px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 2;
+}
+.checkBox11:hover,
+.checkBox4:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+}
+.instanceGroup {
+  align-self: stretch;
+  height: 122px;
+  position: relative;
+  max-width: 100%;
+}
+.announcement,
+.positionContainerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.announcement {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--just-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  padding: 14px 0 0;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.positionContainerParent {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 416px;
+}
+.recentlyActivityChild {
+  align-self: stretch;
+  height: 258px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  display: none;
+}
+.recentlyActivity1 {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.checkBox5 {
+  align-self: stretch;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: #1b204a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.amFri10 {
+  font-weight: 500;
+}
+.amFri10,
+.kindlyCheckThe,
+.youPostedA {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.youPostedA {
+  font-size: var(--title-medium-size);
+  line-height: 28px;
+  font-weight: 500;
+  font-family: var(--title-medium);
+  color: var(--just-white);
+}
+.kindlyCheckThe {
+  font-size: var(--subtitle-small-size);
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.jobPostActivity,
+.jobPostDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.jobPostDetails {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.jobPostActivity {
+  width: 388px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--body-very-small-size);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--subtitle-small);
+}
+.todayYouMakes {
+  position: relative;
+}
+.activityCountLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+}
+.activitySummary,
+.checkBox6,
+.recentlyActivity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checkBox6 {
+  flex: 1;
+  flex-direction: row;
+  gap: 35px;
+  z-index: 1;
+}
+.activitySummary,
+.recentlyActivity {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.activitySummary {
+  flex-direction: row;
+  padding: 0 34px 0 var(--padding-5xl);
+  font-size: var(--subtitle-small-size);
+}
+.recentlyActivity {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  flex-direction: column;
+  padding: 0 0 26px;
+  gap: 27px;
+  z-index: 1;
+}
+.upcomingScheduleChild {
+  align-self: stretch;
+  height: 424px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--just-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: none;
+}
+.upcomingSchedule1 {
+  width: 200px;
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.checkBox7 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.scheduleHeader {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.checkBox11,
+.scheduleHeader,
+.scheduleItems,
+.scheduleList {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.scheduleItems {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+}
+.checkBox11,
+.scheduleList {
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.scheduleList {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) 0 var(--padding-lgi);
+}
+.checkBox11 {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-200);
+  padding: var(--padding-5xs) var(--padding-4xs);
+  background-color: var(--just-white);
+  position: absolute;
+  top: 17px;
+  left: 0;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  width: 427px;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 2;
+}
+.newSchedule,
+.upcomingSchedule {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.newSchedule {
+  height: 88px;
+  position: relative;
+  max-width: 100%;
+}
+.upcomingSchedule {
+  height: 424px;
+  border-radius: var(--br-xs);
+  background-color: var(--just-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 21px 0 64px;
+  gap: var(--gap-5xs);
+  z-index: 1;
+  color: var(--primary-subtitle-color);
+}
+.frameParent,
+.recentlyActivityParent,
+.upcomingSchedule {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.recentlyActivityParent {
+  width: 427px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  min-width: 427px;
+  color: var(--just-white);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+  font-size: var(--title-medium-size);
+}
+.checkBoxParent,
+.dashboardParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboardParent {
+  width: 1117px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.checkBoxParent {
+  flex: 1;
+  gap: var(--gap-3xl);
+  max-width: calc(100% - 51px);
+  text-align: left;
+  font-size: 24px;
+  color: var(--primary-subtitle-color);
+  font-family: var(--title-medium);
+}
+.checkBox12 {
+  height: 1px;
+  width: 1148px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1238px;
+  right: -1px;
+  background-color: var(--color-whitesmoke-100);
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.background,
+.dashboardDesktop {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.background {
+  flex: 1;
+  background-color: var(--just-white);
+  gap: 50px;
+  max-width: calc(100% - 212px);
+}
+.dashboardDesktop {
+  width: 100%;
+  background-color: var(--background-color);
+  overflow: hidden;
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .dashboardDesktopInner {
+    display: none;
+  }
+  .countPlaceholder {
+    font-size: var(--font-size-19xl);
+    line-height: 22px;
+  }
+  .recentlyActivityParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .background {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .checkBox,
+  .employeeWidget,
+  .positionsGrid {
+    flex-wrap: wrap;
+  }
+  .instanceGroup {
+    height: auto;
+    min-height: 122;
+  }
+  .positionContainerParent {
+    min-width: 100%;
+  }
+  .upcomingSchedule {
+    padding-top: var(--padding-xl);
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+  .recentlyActivityParent {
+    min-width: 100%;
+  }
+  .background {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dashboard {
+    font-size: 19px;
+    line-height: 34px;
+  }
+  .countPlaceholder {
+    font-size: var(--font-size-10xl);
+    line-height: 17px;
+  }
+  .talentRequest {
+    gap: var(--gap-xl);
+  }
+  .checkBox6 {
+    gap: 17px;
+  }
+  .checkBox6,
+  .checkBox7 {
+    flex-wrap: wrap;
+  }
+  .upcomingSchedule {
+    height: auto;
+  }
+}

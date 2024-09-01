@@ -1,0 +1,73 @@
+.minutesAgo,
+.outingScheduleFor {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.minutesAgo {
+  font-size: var(--body-very-small-size);
+  line-height: 14px;
+  font-family: var(--subtitle-small);
+  color: var(--primary-subtitle-color);
+  white-space: nowrap;
+}
+.instanceContent {
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+}
+.bipinAngleFillIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.instanceContentParent,
+.instanceIcons,
+.repeatedOutingActions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instanceIcons {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.instanceContentParent,
+.repeatedOutingActions {
+  flex-direction: column;
+  padding: var(--padding-3xl) 0 0;
+}
+.instanceContentParent {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: var(--br-7xs);
+  background-color: var(--background-color);
+  border: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 600px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-2xs) var(--padding-mid) var(--padding-2xs)
+    var(--padding-mini);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--secondary-title-color);
+  font-family: var(--title-medium);
+}
+@media screen and (max-width: 700px) {
+  .instanceContentParent {
+    flex-wrap: wrap;
+  }
+}

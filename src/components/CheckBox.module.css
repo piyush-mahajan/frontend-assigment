@@ -1,0 +1,139 @@
+.search {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 57px;
+}
+.checkBox1,
+.checkBox2 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.checkBox2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 24px;
+}
+.checkBox1 {
+  width: 343px;
+  border-radius: var(--br-9xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-base);
+  max-width: 100%;
+}
+.icroundNotificationsIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bichatLeftDotsFillChild {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  background-color: var(--color-black);
+  display: none;
+}
+.groupIcon {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupIcon {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  object-fit: cover;
+}
+.admirraJohn {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161e54;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 111px;
+}
+.checkBox6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.checkBox5 {
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.checkBox,
+.checkBox3,
+.checkBox4,
+.checkBox5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkBox4 {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.checkBox,
+.checkBox3 {
+  max-width: 100%;
+}
+.checkBox3 {
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-37xl) var(--padding-5xl)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+}
+.checkBox {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+  font-family: var(--title-medium);
+}
+@media screen and (max-width: 925px) {
+  .checkBox {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .checkBox3 {
+    gap: var(--gap-mini);
+    flex-wrap: wrap;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
